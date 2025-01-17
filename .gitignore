@@ -1,0 +1,16 @@
+# 全てのファイルを一旦無視
+*
+
+# ipynbファイルだけを許可
+!*.ipynb
+
+# gitignore 自身を許可
+!.gitignore
+
+# modelsフォルダとその中身を許可
+!models/
+!models/**
+
+# modelsフォルダとその中身を許可
+!onnxmodels/
+!onnxmodels/**
